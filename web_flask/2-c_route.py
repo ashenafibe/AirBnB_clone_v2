@@ -14,7 +14,6 @@ def hello_hbnb():
     """
     return "Hello HBNB!"
 
-
 @app.route('/hbnb', strict_slashes=False)
 def display_hbnb():
     """displays text
@@ -23,16 +22,6 @@ def display_hbnb():
     """
     return "HBNB"
 
-
-@app.route('/c/<text>', strict_slashes=False)
-def display_text(text):
-    """displays text
-    Args:
-        text (str): text
-    Returns:
-        text
-    """
-    return 'C %s' % text.replace('_', ' ')
 
 
 if __name__ == "__main__":
