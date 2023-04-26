@@ -13,15 +13,15 @@ def hello_hbnb():
     Returns:
         text
     """
-    return "Hello HBNB!"
+    return 'Hello HBNB!'
+
 
 @app.route('/hbnb', strict_slashes=False)
-def hbnb():
     """displays text
     Returns:
         text
     """
-    return "HBNB!"
+    return 'HBNB!'
 
 
 
