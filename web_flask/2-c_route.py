@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""class Flask"""
 from flask import Flask
 """class Flask"""
 
@@ -13,15 +14,6 @@ def hello_hbnb():
         text
     """
     return "Hello HBNB!"
-
-@app.route('/hbnb', strict_slashes=False)
-def display_hbnb():
-    """displays text
-    Returns:
-        text
-    """
-    return "HBNB"
-
 
 
 if __name__ == "__main__":
